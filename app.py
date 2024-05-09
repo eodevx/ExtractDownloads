@@ -51,4 +51,4 @@ def handle_request():
     json_dump = json.dumps(dataset)
     print("1")
     return json_dump
-app.run(port=9001, debug=True)
+app.run(port=9001, debug=False, host="0.0.0.0")
